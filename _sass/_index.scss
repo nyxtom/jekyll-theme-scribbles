@@ -22,6 +22,15 @@
  @import 'highlight-github';
  @import 'print';
 
+ .hack blockquote:after {
+   display: none !important;
+ }
+ .hack blockquote {
+   background-color: #f4f4f4;
+   padding: 12px 20px;
+   border-radius: 4px;
+ }
+
  footer.site-footer {
    margin-top: 3rem;
    border-top: 2px solid $grey-400;
