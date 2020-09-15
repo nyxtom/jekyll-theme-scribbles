@@ -125,6 +125,11 @@
    }
  }
 
+ img {
+   max-width: 100%;
+   max-height: 400px;
+ }
+
  .language-rust {
    .highlight {
      // Hide some of rouges problems with highlighting life times
