@@ -5,7 +5,7 @@
 
   {% assign seo_site_title = site.title | default: site.name -%}
 
-  {% if page.title -%}
+  {% if page.title and page.title != seo_site_title -%}
     {% assign seo_title = page.title -%}
     {% assign seo_page_title = page.title -%}
 
