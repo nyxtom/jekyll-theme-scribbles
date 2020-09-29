@@ -46,26 +46,20 @@
 
  .hack {
      h1, h2, h3, h4, h5, h6 {
-         &:before {
+         &:before, &:after {
              display: none !important;
          }
          margin-bottom: 2rem;
          padding: 1rem;
-         background-color: #fbfbfb;
-         border-radius: 10px;
-         border-bottom: 4px solid #eee;
-         border-left: 8px solid #c8c8c8;
      }
      h1 {
          font-size: 1.4rem;
-         padding: 4rem 1rem;
+         padding: 4rem 1.1rem;
      }
      h2 {
          font-size: 1.2rem;
      }
      h3, h4, h5, h6 {
-         border-left: none;
-         border-right: none;
          padding: 0.5rem 1rem;
      }
      h3 {
