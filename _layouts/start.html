@@ -13,6 +13,11 @@ layout: page
     <div class="post-time">
         <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
     </div>
+    {% if post.description %}
+        <p>
+            {{ post.description }}
+        </p>
+    {% endif %}
     <!-- {% for category in post.categories %}<em>{{ category }}</em> {% endfor %} -->
     </li>
   {% endfor %}
