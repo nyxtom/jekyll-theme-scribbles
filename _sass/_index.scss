@@ -27,6 +27,12 @@
      line-height: 1.75rem;
  }
 
+ .hack h1, .hack p, .hack ul, .hack dl, .hack ol, .hack blockquote {
+     padding: 0 1.25rem;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+ }
+
  .hack blockquote:after {
    display: none !important;
  }
@@ -70,12 +76,6 @@
          font-size: 1rem;
          font-weight: normal;
      }
- }
-
- .hack h1, .hack p, .hack ul, .hack dl, .hack ol, .hack blockquote {
-     padding: 0 1.25rem;
-     margin-top: 2rem;
-     margin-bottom: 2rem;
  }
 
  footer.site-footer {
