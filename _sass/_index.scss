@@ -22,6 +22,12 @@
  @import 'highlight-github';
  @import 'print';
 
+ .post-time time {
+     font-size: 0.9rem;
+     font-style: italic;
+     display: block;
+     margin: 0.5rem 0;
+ }
 
  .hack, .hack h1, .hack h2, .hack h3, .hack h4, .hack h5, .hack h6, .hack code, .hack blockquote, .hack em, .hack strong, .hack code {
      line-height: 1.75rem;
