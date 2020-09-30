@@ -20,6 +20,9 @@
     <nav>
       <p>
         <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS feed</a>
+        {% if site.author.followit %}/
+        <a href="https://follow.it/{{site.author.followit}}?action=followPub">Subscribe via email</a>
+        {% endif %}
         {% if site.author.twitter %}/
         <a href="https://twitter.com/{{site.author.twitter}}">Follow me on Twitter</a>{% endif %}
         {% if site.author.github %}/
