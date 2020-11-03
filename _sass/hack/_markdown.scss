@@ -23,6 +23,10 @@
   font-style: normal;
   font-family: $font-family-code;
 }
+.hack code,
+.hack .highlight {
+  font-family: $font-family-code-2;
+}
 .hack h1,
 .hack h2,
 .hack h3,
