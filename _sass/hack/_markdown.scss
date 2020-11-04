@@ -18,13 +18,14 @@
 .hack em,
 .hack strong,
 .hack code {
-  font-size: 1rem;
-  line-height: $lh;
+  font-size: 1.1rem;
+  line-height: 2rem;;
   font-style: normal;
   font-family: $font-family-code;
 }
 .hack code,
 .hack .highlight {
+  font-family: 1rem;
   font-family: $font-family-code-2;
 }
 .hack h1,

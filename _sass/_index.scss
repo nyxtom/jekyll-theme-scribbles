@@ -207,3 +207,44 @@
      }
    }
  }
+
+ .hack h1 {
+     font-size: 2rem;
+ }
+
+ .hack h2 {
+     font-size: 1.4rem;
+     border: dashed 10px #f9f9f9;
+     margin-top: 18rem;
+     margin-bottom: 9rem;
+     padding-top: 4rem;
+     padding-left: 3rem;
+     padding-bottom: 4rem;
+     margin-left: -1rem;
+     width: calc(100% + 2rem);
+ }
+
+ .hack h3 {
+     font-size: 1.3rem;
+     padding: 3rem 1rem;
+     padding-top: 4rem;
+     padding-left: 3rem;
+     margin-top: 12rem;
+     border-top: dashed 4px #f4f4f4;
+     box-shadow: 2px -5px 10px rgba(0, 0, 0, 0.05);
+     margin-left: -0.5rem;
+     width: calc(100% + 1rem);
+ }
+ pre {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: #fbfbfb;
+    border: none;
+    border-radius: 8px;
+ }
+ .hack blockquote {
+     margin-top: 3rem;
+     margin-bottom: 3rem;
+ }
